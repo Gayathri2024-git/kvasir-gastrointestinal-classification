@@ -1,0 +1,21 @@
+{
+    "mode": null,
+    "out": "/scratch/attah/deeptune-master/biomed_deeptune_results/phase4/deeptune_peft",
+    "batch_size": 8,
+    "grouper": null,
+    "modality": "images",
+    "df": "/scratch/attah/deeptune-master/biomed/kvasir_fixed.parquet",
+    "model_version": "densenet121",
+    "num_classes": 8,
+    "use_peft": true,
+    "target": "label",
+    "raw_data": false,
+    "finetuning_mode": false,
+    "freeze_backbone": false,
+    "type": null,
+    "continuous_cols": null,
+    "categorical_cols": null,
+    "time_idx_column": "labels",
+    "model": "PEFT-densenet121",
+    "model_architecture": "densenet"
+}
